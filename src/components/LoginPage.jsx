@@ -8,7 +8,7 @@ export const LoginPage = ({ className }) => {
         <div className="title-sign">Log in</div>
         <div className="input-frame">
             <label className="text-wrapper">Email:</label>
-          <input className="textfield" placeholder="joeDoe@email.com" type="email" />
+          <input className="textfield" type="email" />
         </div>
         <div className="input-frame">
           <label className="text-wrapper">Password:</label>
