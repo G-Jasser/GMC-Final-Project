@@ -15,9 +15,9 @@ export const NavbarLandingPage = ({ className }) => {
           <div className="tab">About Us</div>
         </div>
         <div>
-            <button className="primary-button button-styled">
-                Log in
-            </button>
+          <button className="primary-button button-styled">
+            Log in
+          </button>
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "/src/css/style.css";
 
-export const NavbarSigned = ({ className }) => {
+export const NavbarSignedRecruiter = ({ className }) => {
   return (
     <div className={`navbar-general ${className}`}>
       <div className="div">
