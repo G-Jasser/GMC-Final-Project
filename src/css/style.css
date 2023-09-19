@@ -1,3 +1,4 @@
+/* NAVBAR CSS SECTION-------------------- */
 .navbar-general {
     align-items: center;
     background-color: #ffffff;
@@ -66,6 +67,7 @@
     white-space: nowrap;
     width: fit-content;
 }
+/* ---------------- */
 
  /* Button Styles */
  .button-styled {
