@@ -1,0 +1,105 @@
+.navbar-landing-page {
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 6px #0000001f;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.navbar-landing-page .div {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+}
+
+.navbar-landing-page .justlogo {
+    height: 40px;
+    object-fit: cover;
+    position: relative;
+    width: 39.3px;
+}
+
+.navbar-landing-page .title-2 {
+    color: var(--Main-Title-Color, #00223D);
+    font-family: "Libre Baskerville";
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 36px;
+    position: relative;
+    width: 259px;
+}
+
+.navbar-landing-page .frame {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 40px;
+    justify-content: center;
+    position: relative;
+}
+
+.navbar-landing-page .navigation {
+    align-items: center;
+    background-color: #ffffff;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 40px;
+    justify-content: center;
+    position: relative;
+}
+
+.navbar-landing-page .tab {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+ /* Button Styles */
+ .button-styled {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.primary-button {
+    border-radius: 8px;
+    background: #FFF;
+    color: #000;
+}
+.secondary-button {
+    border-radius: 8px;
+    background: #000;
+    color: #FFF;
+}
+
+.primary-button:hover {
+    border-radius: 8px;
+    background: #000;
+    color: #FFF;
+}
+.secondary-button:hover {
+    border-radius: 8px;
+    background: #FFF;
+    color: #000;
+}
+/* ---------------- */
