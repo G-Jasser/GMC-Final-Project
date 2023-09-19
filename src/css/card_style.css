@@ -1,0 +1,72 @@
+.job-card {
+    display: flex;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #E5E5E5;
+    background: #FFF;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    width: 500px; /* PUT BACK TO 100%*/
+}
+.job-card .image-container {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: flex-start;
+}
+.job-card .card-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+.job-card .tags {
+    display: flex;
+    padding: 4px 0px;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+}
+
+.job-card .title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 28px; /* 140% */
+}
+
+.job-card .company {
+    color: #808080;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+}
+
+.job-card .location {
+    color: #1F1F1F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.tag-styled {
+    display: flex;
+    padding: 2px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    border-radius: 2px;
+    border: 0.5px solid #D3D3D3;
+    background: #EBEBEB;
+
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+}

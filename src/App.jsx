@@ -1,4 +1,5 @@
 import { GeneralFooter } from './components/FooterGeneral'
+import { JobCard } from './components/JobCard'
 import { LoginPage } from './components/LoginPage'
 import { NavbarLandingPage } from './components/NavbarLandingPageUnsigned'
 import { NavbarSignedRecruiter } from './components/NavbarSignedRecruiter'
@@ -11,8 +12,7 @@ function App() {
   return (
     <>
       <NavbarSignedSeeker/>
-      <SignUpRecruiter/>
-      <SignUpSeeker/>
+      <JobCard/>
       <LoginPage/>
       <GeneralFooter/>
     </>
