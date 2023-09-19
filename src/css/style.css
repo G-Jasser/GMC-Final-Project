@@ -175,7 +175,6 @@
 
 .general-footer .text-wrapper {
     color: #000000;
-    font-family: "Inter-SemiBold", Helvetica;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 0;
@@ -187,7 +186,6 @@
 
 .general-footer .item {
     color: #000000;
-    font-family: "Inter-Light", Helvetica;
     font-size: 17px;
     font-weight: 300;
     letter-spacing: 0;
@@ -224,7 +222,6 @@
 .general-footer .title-2 {
     align-self: stretch;
     color: #000000;
-    font-family: "Roboto-ExtraLight", Helvetica;
     font-size: 18px;
     font-weight: 200;
     letter-spacing: 0;
@@ -238,7 +235,6 @@
 
 .general-footer .text-wrapper-2 {
     color: #000000;
-    font-family: "Roboto-ExtraLight", Helvetica;
     font-size: 18px;
     font-weight: 200;
     letter-spacing: 0;
@@ -253,7 +249,6 @@
 .general-footer .title-3 {
     align-self: stretch;
     color: #000000;
-    font-family: "Roboto-ExtraLight", Helvetica;
     font-size: 18px;
     font-weight: 200;
     letter-spacing: 0;
@@ -278,7 +273,6 @@
 
 .general-footer .p {
     color: #777777;
-    font-family: "Roboto-SemiBold", Helvetica;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 0;
@@ -289,3 +283,111 @@
     white-space: nowrap;
     width: fit-content;
 }
+/* LOGIN PAGE CSS--------------------- */
+.login {
+    align-items: center;
+    background: linear-gradient(180deg, rgb(128.43, 175.9, 207.55) 0%, rgb(232.79, 241.12, 246.68) 100%);
+    display: flex;
+    gap: 60px;
+    height: 647px;
+    justify-content: center;
+    padding: 60px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .login .container {
+    align-items: center;
+    background-color: #f7f7f7;
+    border: 1px solid;
+    border-color: #c9c9c9;
+    border-radius: 5px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .login .title {
+    color: #000000;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 48px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: 520px;
+  }
+  
+  .login .input {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    position: relative;
+    width: 600px;
+  }
+  
+  .login .div {
+    align-self: stretch;
+    background: transparent;
+    border: none;
+    color: #000000;
+    font-family: "Roboto-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    padding: 0;
+    position: relative;
+  }
+  
+  .login .textfield {
+    align-self: stretch;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #0000001a;
+    border-radius: 6px;
+    flex: 0 0 auto;
+    position: relative;
+    width: 100%;
+    padding: 12px;
+  }
+  
+  .login .text-wrapper {
+    align-self: stretch;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .login .info {
+    align-self: stretch;
+    color: #00000080;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    position: relative;
+  }
+  
+  .login .button {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 12px;
+    position: relative;
+  }
+/* ----------------------   */

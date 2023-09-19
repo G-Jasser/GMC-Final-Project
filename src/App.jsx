@@ -1,4 +1,5 @@
 import { GeneralFooter } from './components/FooterGeneral'
+import { LoginPage } from './components/LoginPage'
 import { NavbarLandingPage } from './components/NavbarLandingPageUnsigned'
 import { NavbarSignedRecruiter } from './components/NavbarSignedRecruiter'
 import { NavbarSignedSeeker } from './components/NavbarSignedSeeker'
@@ -8,9 +9,8 @@ function App() {
   return (
     <>
       <NavbarSignedSeeker/>
-      <div style={{height:"50vh"}}>
+      <LoginPage/>
       <GeneralFooter/>
-      </div>
     </>
   )
 }
