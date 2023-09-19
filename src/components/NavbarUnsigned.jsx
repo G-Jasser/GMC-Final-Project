@@ -1,7 +1,7 @@
 import React from "react";
 import "/src/css/style.css";
 
-export const NavbarLandingPage = ({ className }) => {
+export const NavbarUnsigned = ({ className }) => {
   return (
     <div className={`navbar-general ${className}`}>
       <div className="div">
@@ -10,14 +10,15 @@ export const NavbarLandingPage = ({ className }) => {
       </div>
       <div className="frame">
         <div className="navigation">
-          <div className="tab">For Employers</div>
-          <div className="tab">For Job Seekers</div>
+          <div className="tab">Home</div>
+          <div className="tab">Browse Jobs</div>
           <div className="tab">About Us</div>
+          <div className="tab">Contact Us</div>
         </div>
         <div>
-            <button className="primary-button button-styled">
-                Log in
-            </button>
+          <button className="button-styled primary-button">
+            Log in
+          </button>
         </div>
       </div>
     </div>
