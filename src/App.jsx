@@ -7,14 +7,12 @@ import { JobSearchSection } from './components/JobSearchSection'
 import LandingPage from './components/LandingPage'
 import { NavbarSignedSeeker } from './components/NavbarSignedSeeker'
 import { ProfileSeekerMainSec } from './components/ProfileSeekerMainSec'
+import ProfileSeekerPage from './components/ProfileSeekerPage'
 
 function App() {
   return (
     <>
-      <NavbarSignedSeeker />
-      <ProfileSeekerMainSec />
-      <AppliedToJobsSection />
-      <GeneralFooter />
+      <ProfileSeekerPage/>
     </>
   )
 }
