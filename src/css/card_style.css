@@ -65,10 +65,10 @@
     background: #EBEBEB;
 
     color: #000;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px; /* 133.333% */
+    line-height: 20px; /* 133.333% */
 }
 
 .job-card .pending-applicants {

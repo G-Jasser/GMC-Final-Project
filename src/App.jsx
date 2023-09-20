@@ -12,12 +12,14 @@ import { NavbarSignedSeeker } from './components/NavbarSignedSeeker'
 import { NavbarUnsigned } from './components/NavbarUnsigned'
 import { SignUpRecruiter } from './components/SignUpRecruiter'
 import { SignUpSeeker } from './components/SignUpSeeker'
+import { WhyUs } from './components/WhyUs'
 
 function App() {
   return (
     <>
       <NavbarSignedSeeker/>
       <LandingPageMainSection/>
+      <WhyUs/>
       <JobCard/>
       <JobCardForSeeker/>
       <ApplicationCard/>

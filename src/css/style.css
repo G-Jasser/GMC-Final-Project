@@ -88,7 +88,7 @@
     justify-content: center;
     align-items: center;
     border: 1px solid #000;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
@@ -377,7 +377,7 @@
 .sign-up-page .text-wrapper {
     align-self: stretch;
     color: #000000;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: 0;
     line-height: 20px;
@@ -489,4 +489,66 @@
     display: flex;
     align-items: flex-start;
     gap: 90px;
+}
+
+.WhyUs {
+    display: flex;
+    padding: 60px 170px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: #FFF;
+}
+
+.section-container .text-normal {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.section-container .title-1 {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 48px; /* 120% */
+}
+
+.section-container .main-container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+.section-container .list-1 {
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex: 1 0 0;
+}
+.section-container .item-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    width: 100%;
+}
+
+.section-container .title-2 {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 28px;
 }
