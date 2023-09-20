@@ -11,6 +11,10 @@
     max-width: 1320px;
 }
 
+.max-height-sc {
+    max-height: 980px;
+}
+
 .min-width-500 {
     min-width: 500px;
 }
@@ -698,7 +702,7 @@
     display: flex;
     padding: 60px 60px 20px 60px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 60px;
     align-self: stretch;
 }

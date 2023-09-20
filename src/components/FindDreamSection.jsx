@@ -3,7 +3,7 @@ import "/src/css/style.css";
 
 export const FindDreamSection = () => {
     return (
-        <div className="section-container FindDreamSection bottom-border">
+        <div className="section-container FindDreamSection bottom-border max-height-sc">
             <div className="main-container">
                 <div className="title-1">Find Your Dream Job</div>
                 <p className="text-normal">Browse through thousands of job offers</p>

@@ -3,7 +3,7 @@ import "/src/css/style.css";
 
 export const ProfileSeekerMainSec = () => {
     return (
-        <div className="section-container ProfileMainSection bottom-border">
+        <div className="section-container ProfileMainSection bottom-border max-height-sc">
             <div className="container max-width">
                 <div className="info">
                     <div className="title-1">John Doe</div>

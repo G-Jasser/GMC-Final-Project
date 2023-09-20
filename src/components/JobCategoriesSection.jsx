@@ -3,7 +3,7 @@ import "/src/css/style.css";
 
 export const JobCategoriesSection = () => {
     return (
-        <div className="section-container JobCategoriesSection bottom-border">
+        <div className="section-container JobCategoriesSection bottom-border max-height-sc">
             <div className="main-container">
                 <div className="title-1">Job Categories</div>
                 <div className="list-horizontal tag-section">

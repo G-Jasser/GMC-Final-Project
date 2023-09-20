@@ -4,7 +4,7 @@ import { ApplicantCard } from "./ApplicantCard";
 
 export const ReceivedAppSection = () => {
     return (
-        <div className="section-container JobSearchSection bottom-border">
+        <div className="section-container JobSearchSection bottom-border max-height-sc">
             <div className="max-width-2 main-container">
                 <div className="main-container-1">
                     <div className="title-1">Received Applications</div>

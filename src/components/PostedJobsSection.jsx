@@ -4,7 +4,7 @@ import { JobCardForRecruiter } from "./JobCardForRecruiter";
 
 export const PostedJobsSection = () => {
     return (
-        <div className="section-container JobSearchSection bottom-border">
+        <div className="section-container JobSearchSection bottom-border max-height-sc">
             <div className="max-width-2 main-container">
                 <div className="main-container-1">
                     <div className="title-1">Your Posted Jobs</div>
