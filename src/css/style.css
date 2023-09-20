@@ -743,3 +743,10 @@
     gap: 12px;
     flex: 1 0 0;
 }
+
+.JobSearchSection .btn-ctr {
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

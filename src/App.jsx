@@ -5,14 +5,17 @@ import JobBrowserPage from './components/JobBrowserPage'
 import { JobCategoriesSection } from './components/JobCategoriesSection'
 import { JobSearchSection } from './components/JobSearchSection'
 import LandingPage from './components/LandingPage'
-import { NavbarSignedSeeker } from './components/NavbarSignedSeeker'
+import { NavbarSignedRecruiter } from './components/NavbarSignedRecruiter'
+import { PostedJobsSection } from './components/PostedJobsSection'
 import { ProfileSeekerMainSec } from './components/ProfileSeekerMainSec'
 import ProfileSeekerPage from './components/ProfileSeekerPage'
 
 function App() {
   return (
     <>
-      <ProfileSeekerPage/>
+      <NavbarSignedRecruiter/>
+      <PostedJobsSection />
+      <GeneralFooter />
     </>
   )
 }
