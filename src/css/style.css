@@ -653,7 +653,7 @@
 .JobCategoriesSection {
     display: flex;
     position: relative;
-    padding: 20px 60px;
+    padding: 40px 60px;
     justify-content: center;
     align-items: center;
     gap: 60px;

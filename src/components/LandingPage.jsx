@@ -3,7 +3,7 @@ import { NavbarLandingPage } from './NavbarLandingPageUnsigned'
 import { LandingPageMainSection } from './LandingPageMainSection'
 import { WhyUs } from './WhyUs'
 import { BenefitsSection } from './BenefitsSection'
-import { GeneralFooter } from './FooterGeneral'
+import { GeneralFooter } from './GeneralFooter'
 
 const LandingPage = () => {
   return (
