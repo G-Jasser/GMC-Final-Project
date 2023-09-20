@@ -3,7 +3,7 @@ import "/src/css/style.css";
 
 export const WhyUs = () => {
     return (
-        <div className="section-container WhyUs">
+        <div className="section-container WhyUs bottom-border">
             <div className="main-container-1">
                 <div className="title-1">Why Choose Us</div>
                 <p className="text-normal">

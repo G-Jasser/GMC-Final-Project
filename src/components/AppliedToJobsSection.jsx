@@ -4,7 +4,7 @@ import { JobCardForSeeker } from "./JobCardForSeeker";
 
 export const AppliedToJobsSection = () => {
     return (
-        <div className="section-container JobSearchSection">
+        <div className="section-container JobSearchSection bottom-border">
             <div className="max-width-2 main-container">
                 <div className="main-container-1">
                     <div className="title-1">Applied to Jobs</div>

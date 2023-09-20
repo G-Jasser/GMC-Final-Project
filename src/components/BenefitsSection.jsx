@@ -3,7 +3,7 @@ import "/src/css/style.css";
 
 export const BenefitsSection = () => {
     return (
-        <div className="section-container BenefitsSection">
+        <div className="section-container BenefitsSection bottom-border">
             <div className="main-container-1">
                 <p className="title-1">Benefits of Posting a Job</p>
                 <div className="list-1">

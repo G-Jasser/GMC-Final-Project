@@ -3,7 +3,7 @@ import "/src/css/style.css";
 
 export const LandingPageMainSection = () => {
     return (
-        <div className="section-container LandingPageMainSection">
+        <div className="section-container LandingPageMainSection bottom-border">
             <div className="container max-width">
                 <img className="landing-page-logo" src="/logos/logo-full.png" />
                 <div className="sign-buttons-wrapper">

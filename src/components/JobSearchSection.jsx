@@ -5,7 +5,7 @@ import { JobSearchBar } from "./JobSearchBar";
 
 export const JobSearchSection = () => {
     return (
-        <div className="section-container JobSearchSection">
+        <div className="section-container JobSearchSection bottom-border">
             <div className="max-width-2 main-container">
                 <div className="main-container-1">
                     <div className="title-1">Search Posted Jobs</div>
