@@ -716,3 +716,26 @@
     min-height: 60vh;
     overflow-y: scroll;
 }
+
+/* ----------------------   */
+/* SEEKER PROFILE SECTION CSS*/
+.ProfileMainSection {
+    display: flex;
+    padding: 60px 170px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProfileMainSection .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.ProfileMainSection .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1 0 0;
+}

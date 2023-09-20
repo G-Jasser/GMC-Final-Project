@@ -4,15 +4,14 @@ import JobBrowserPage from './components/JobBrowserPage'
 import { JobCategoriesSection } from './components/JobCategoriesSection'
 import { JobSearchSection } from './components/JobSearchSection'
 import LandingPage from './components/LandingPage'
-import { NavbarLandingPage } from './components/NavbarLandingPageUnsigned'
+import { NavbarSignedSeeker } from './components/NavbarSignedSeeker'
+import { ProfileSeekerMainSec } from './components/ProfileSeekerMainSec'
 
 function App() {
   return (
     <>
-      <NavbarLandingPage />
-      <FindDreamSection />
-      <JobCategoriesSection />
-      <JobSearchSection />
+      <NavbarSignedSeeker />
+      <ProfileSeekerMainSec />
       <GeneralFooter />
     </>
   )
