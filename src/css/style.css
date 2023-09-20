@@ -455,6 +455,7 @@
     fill: #FFF;
 }
 
+/* ----------------------   */
 /* MAIN LANDINPAGE CSS*/
 .section-container {
     /*General things*/
@@ -532,6 +533,8 @@
     align-items: center;
     gap: 40px;
     flex: 1 0 0;
+    align-self: stretch;
+    max-width: 1100px;
 }
 .section-container .item-1 {
     display: flex;
@@ -551,4 +554,47 @@
     font-style: normal;
     font-weight: bold;
     line-height: 28px;
+}
+
+.BenefitsSection {
+    display: flex;
+    position: relative;
+    padding: 60px 170px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+}
+
+.text-subtitle {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.tag-section .tag-styled {
+    display: flex;
+    padding: 2px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    border-radius: 2px;
+    border: 0.5px solid #D3D3D3;
+    background: #EBEBEB;
+
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+}
+
+.tag-section .tags {
+    display: flex;
+    padding: 4px 0px;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
 }
