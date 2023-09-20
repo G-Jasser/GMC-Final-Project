@@ -1,7 +1,7 @@
 import React from "react";
 import "/src/css/card_style.css";
 
-export const ApplicationCard = ({ ApplicantDetails }) => {
+export const ApplicantCard = ({ ApplicantDetails }) => {
     const ApplicantDetailsMock = { //DELETE THIS LATER
         job_title: "Web developer",
         applicant_name: "John Doe",

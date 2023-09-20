@@ -537,6 +537,9 @@
     gap: 24px;
     flex: 1 0 0;
 }
+.section-container .main-container .image-wrapper {
+    align-self: flex-start;
+}
 
 .section-container .list-1 {
     display: flex;
@@ -718,7 +721,7 @@
     align-self: stretch;
     max-width: 1100px;
     min-height: 60vh;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 /* ----------------------   */

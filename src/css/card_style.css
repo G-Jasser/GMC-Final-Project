@@ -7,7 +7,6 @@
     justify-content: center;
     align-items: flex-start;
     gap: 16px;
-    flex: 1 0 0;
     width: 100%; /* PUT BACK TO 100%*/
 }
 .job-card .image-container {
