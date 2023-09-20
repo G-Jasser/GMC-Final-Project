@@ -740,6 +740,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    gap: 40px;
 }
 .ProfileMainSection .info {
     display: flex;
@@ -758,4 +759,13 @@
 
 .bottom-border {
     border-bottom: 1px rgba(0, 0, 0, 0.10) solid
+}
+.info .tag-styled {
+    padding: 5px;
+}
+
+.ProfileMainSection .pfp {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
 }

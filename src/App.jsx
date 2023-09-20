@@ -6,8 +6,8 @@ import { JobCategoriesSection } from './components/JobCategoriesSection'
 import { JobSearchSection } from './components/JobSearchSection'
 import LandingPage from './components/LandingPage'
 import { NavbarSignedRecruiter } from './components/NavbarSignedRecruiter'
-import PostedJobsPage from './components/PostedJobsPage'
 import { PostedJobsSection } from './components/PostedJobsSection'
+import { ProfileRecruiterMainSec } from './components/ProfileRecruiterMainSec'
 import { ProfileSeekerMainSec } from './components/ProfileSeekerMainSec'
 import ProfileSeekerPage from './components/ProfileSeekerPage'
 import { ReceivedAppSection } from './components/ReceivedAppSection'
@@ -15,7 +15,9 @@ import { ReceivedAppSection } from './components/ReceivedAppSection'
 function App() {
   return (
     <>
-      <PostedJobsPage/>
+      <NavbarSignedRecruiter/>
+      <ProfileRecruiterMainSec/>
+      <GeneralFooter />
     </>
   )
 }
