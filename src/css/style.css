@@ -3,6 +3,10 @@
     --variable-collection-test: rgba(84, 148, 191, 1);
 }
 
+.width100p {
+    width: 100%;
+}
+
 .max-width {
     max-width: 1100px;
 }
@@ -17,6 +21,10 @@
 
 .min-width-500 {
     min-width: 500px;
+}
+
+.min-height-5{
+    min-height: 500px;
 }
 
 /* NAVBAR CSS SECTION-------------------- */

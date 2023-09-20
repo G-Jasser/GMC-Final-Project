@@ -11,12 +11,14 @@ import { ProfileRecruiterMainSec } from './components/ProfileRecruiterMainSec'
 import { ProfileSeekerMainSec } from './components/ProfileSeekerMainSec'
 import ProfileSeekerPage from './components/ProfileSeekerPage'
 import { ReceivedAppSection } from './components/ReceivedAppSection'
+import { RecruiterAboutUsSection } from './components/RecruiterAboutUsSection'
 
 function App() {
   return (
     <>
       <NavbarSignedRecruiter/>
       <ProfileRecruiterMainSec/>
+      <RecruiterAboutUsSection/>
       <GeneralFooter />
     </>
   )
