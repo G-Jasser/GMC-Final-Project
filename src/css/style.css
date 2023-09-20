@@ -310,6 +310,7 @@
     padding: 20px;
     position: relative;
 }
+
 .login {
     height: 650px;
 }
@@ -336,6 +337,7 @@
     position: relative;
     width: 100%;
 }
+
 .double-input-frame {
     display: flex;
     width: 100%;
@@ -358,9 +360,9 @@
     position: relative;
 }
 
-.login .textfield,
-.sign-up-page .textfield {
+.textfield {
     align-self: stretch;
+    font-size: 16px;
     background-color: #ffffff;
     border: 1px solid;
     border-color: #0000001a;
@@ -407,19 +409,47 @@
 .sign-up-page {
     height: fit-content;
 }
+
 .agreement-checkbox {
     align-self: flex-start;
     display: flex;
     gap: 5px;
 }
+
 .agreement-checkbox .checkbox {
     width: 24px;
     height: 24px;
 }
+
 .agreement-checkbox p {
     color: #000;
     font-size: 12px;
     font-weight: 200;
-    line-height: 24px; /* 200% */
+    line-height: 24px;
+    /* 200% */
 }
+
 /* ----------------------   */
+/* SEARCH BAR CSS SECTION----------------*/
+.advanced-search {
+    display: flex;
+    width: 550px;
+    /*CHANGE TO 100% LATER*/
+    padding: 2px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 5px;
+    border: 1px solid #C9C9C9;
+    background: #F8F8F8;
+}
+
+.advanced-search .button-with-image {
+    width: 36px;
+    height: 36px;
+}
+.advanced-search .button-with-image > img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    fill: #FFF;
+}
