@@ -11,6 +11,10 @@
     max-width: 1320px;
 }
 
+.min-width-500 {
+    min-width: 500px;
+}
+
 /* NAVBAR CSS SECTION-------------------- */
 .navbar-general {
     align-items: center;

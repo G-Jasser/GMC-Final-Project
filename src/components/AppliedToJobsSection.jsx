@@ -1,22 +1,17 @@
 import React from "react";
 import "/src/css/style.css";
-import { JobCard } from "./JobCard";
-import { JobSearchBar } from "./JobSearchBar";
+import { JobCardForSeeker } from "./JobCardForSeeker";
 
-export const JobSearchSection = () => {
+export const AppliedToJobsSection = () => {
     return (
         <div className="section-container JobSearchSection">
             <div className="max-width-2 main-container">
                 <div className="main-container-1">
-                    <div className="title-1">Search Posted Jobs</div>
-                    <JobSearchBar />
+                    <div className="title-1">Applied to Jobs</div>
                     <div className="list-scrollable min-width-500">
-                        <JobCard />
-                        <JobCard />
-                        <JobCard />
-                        <JobCard />
-                        <JobCard />
-                        <JobCard />
+                        <JobCardForSeeker />
+                        <JobCardForSeeker />
+                        <JobCardForSeeker />
                     </div>
                 </div>
                 <div className="image-wrapper">

@@ -1,3 +1,4 @@
+import { AppliedToJobsSection } from './components/AppliedToJobsSection'
 import { FindDreamSection } from './components/FindDreamSection'
 import { GeneralFooter } from './components/GeneralFooter'
 import JobBrowserPage from './components/JobBrowserPage'
@@ -12,6 +13,7 @@ function App() {
     <>
       <NavbarSignedSeeker />
       <ProfileSeekerMainSec />
+      <AppliedToJobsSection />
       <GeneralFooter />
     </>
   )
