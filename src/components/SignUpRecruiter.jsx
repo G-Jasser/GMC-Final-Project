@@ -53,12 +53,12 @@ export const SignUpRecruiter = ({ inputType = "password" }) => {
           <p>I agree to the PRIVACY POLICY and TERMS OF USE and automatic renewal.</p>
         </div>
         <div className="double-button-container">
-          <div className="button-styled primary-button">
+          <button className="button-styled primary-button">
             Cancel
-          </div>
-          <div className="button-styled secondary-button">
+          </button>
+          <button className="button-styled secondary-button">
             Sign up
-          </div>
+          </button>
         </div>
       </div>
     </div>

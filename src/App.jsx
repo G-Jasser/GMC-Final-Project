@@ -4,6 +4,7 @@ import { JobCard } from './components/JobCard'
 import { JobCardForRecruiter } from './components/JobCardForRecruiter'
 import { JobCardForSeeker } from './components/JobCardForSeeker'
 import { JobSearchBar } from './components/JobSearchBar'
+import { LandingPageMainSection } from './components/LandingPageMainSection'
 import { LoginPage } from './components/LoginPage'
 import { NavbarLandingPage } from './components/NavbarLandingPageUnsigned'
 import { NavbarSignedRecruiter } from './components/NavbarSignedRecruiter'
@@ -16,6 +17,7 @@ function App() {
   return (
     <>
       <NavbarSignedSeeker/>
+      <LandingPageMainSection/>
       <JobCard/>
       <JobCardForSeeker/>
       <ApplicationCard/>

@@ -447,9 +447,46 @@
     width: 36px;
     height: 36px;
 }
-.advanced-search .button-with-image > img {
+
+.advanced-search .button-with-image>img {
     width: 20px;
     height: 20px;
     flex-shrink: 0;
     fill: #FFF;
+}
+
+/* MAIN LANDINPAGE CSS*/
+.section-container {
+    /*General things*/
+    width: 100%;
+}
+
+.LandingPageMainSection {
+    display: flex;
+    height: 700px;
+    padding: 60px 0px;
+    flex-direction: column;
+    align-items: center;
+    background: radial-gradient(61.61% 89.57% at 50% -1.86%, #99C9E8 0%, #FFF 100%);
+}
+
+.LandingPageMainSection .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+}
+.LandingPageMainSection .sign-buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+.LandingPageMainSection .double-button-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 90px;
 }
