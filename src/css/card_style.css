@@ -86,3 +86,59 @@
     font-weight: 400;
     line-height: 16px;
 }
+
+.job-card.applicant-card {
+    padding: 16px 50px;
+}
+
+.applicant-card .company{
+    font-size: 18px;
+}
+
+.applicant-card .button-frame{
+    display: flex;
+    padding: 4px 0px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+}
+
+.applicant-card .button-styled {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    padding: 6px 12px;
+}
+
+.applicant-card .primary-button {
+    border-radius: 8px;
+    background: #FFF;
+    color: #000;
+}
+
+.applicant-card .secondary-button {
+    border-radius: 8px;
+    background: #000;
+    color: #FFF;
+}
+
+.applicant-card .primary-button:hover {
+    border-radius: 8px;
+    background: #000;
+    color: #FFF;
+}
+
+.applicant-card .secondary-button:hover {
+    border-radius: 8px;
+    background: #FFF;
+    color: #000;
+}

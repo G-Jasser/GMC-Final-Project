@@ -1,3 +1,4 @@
+import { ApplicationCard } from './components/ApplicantCard'
 import { GeneralFooter } from './components/FooterGeneral'
 import { JobCard } from './components/JobCard'
 import { JobCardForRecruiter } from './components/JobCardForRecruiter'
@@ -16,6 +17,7 @@ function App() {
       <NavbarSignedSeeker/>
       <JobCard/>
       <JobCardForSeeker/>
+      <ApplicationCard/>
       <LoginPage/>
       <GeneralFooter/>
     </>
