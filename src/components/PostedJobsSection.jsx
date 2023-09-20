@@ -7,7 +7,7 @@ export const PostedJobsSection = () => {
         <div className="section-container JobSearchSection bottom-border max-height-sc">
             <div className="max-width-2 main-container">
                 <div className="main-container-1">
-                    <div className="title-1">Your Posted Jobs</div>
+                    <div className="title-1">Your Job Posts</div>
                     <div className="btn-ctr">
                         <button className="button-styled secondary-button">
                             Add a new Job Post
