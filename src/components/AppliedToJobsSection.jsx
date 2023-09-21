@@ -2,6 +2,7 @@ import React from "react";
 import "/src/css/style.css";
 import { JobCardForSeeker } from "./JobCardForSeeker";
 import { JobPostDetails } from "./JobPostDetails";
+import { MockApplicantStatus } from "/src/assets/MockPostLists"; //Delete Later
 
 export const AppliedToJobsSection = () => {
     return (
@@ -10,9 +11,7 @@ export const AppliedToJobsSection = () => {
                 <div className="main-container-1">
                     <div className="title-1">Applied to Jobs</div>
                     <div className="list-scrollable min-width-500">
-                        <JobCardForSeeker />
-                        <JobCardForSeeker />
-                        <JobCardForSeeker />
+                        {MockApplicantStatus.map(post => <JobCardForSeeker postDetail={post} key={post.job_id} />)}
                     </div>
                 </div>
                 <div className="job-post-section min-width-500">
