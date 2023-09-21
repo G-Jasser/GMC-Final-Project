@@ -4,6 +4,7 @@ import { JobCard, JobCardForRecruiter, JobCardForSeeker } from "./JobCard";
 import { JobPostDetails, JobPostDetailsApplied, JobPostDetailsPosted } from "./JobPostDetails";
 import { MockApplicantStatus, MockJobList } from "/src/assets/MockPostLists"; //Delete Later
 import { JobSearchBar } from "./JobSearchBar";
+import { Link } from "react-router-dom";
 
 export const AppliedToJobsSection = () => {
     return (
@@ -49,9 +50,9 @@ export const PostedJobsSection = () => {
                 <div className="main-container-1">
                     <div className="title-1">Your Job Posts</div>
                     <div className="btn-ctr">
-                        <button className="button-styled secondary-button">
+                        <Link to={"/company/new-post"} className="button-styled secondary-button">
                             Add a new Job Post
-                        </button>
+                        </Link>
                     </div>
                     <div className="list-scrollable min-width-500">
                         {MockJobList.map(post => <JobCardForRecruiter postDetail={post} key={post.job_id}/>)}
