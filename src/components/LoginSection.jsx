@@ -1,5 +1,6 @@
 import React from "react";
 import "/src/css/style.css";
+import { Link } from "react-router-dom";
 
 export const LoginSection = ({ className }) => {
   return (
@@ -16,11 +17,11 @@ export const LoginSection = ({ className }) => {
           <span className="info">Forgot password?</span>
         </div>
         <div className="double-button-container">
-          <button className="button-styled primary-button">
-            Sign up
-          </button>
+          <Link to={"/"} className="button-styled primary-button">
+            Cancel
+          </Link>
           <button className="button-styled secondary-button">
-            Connect
+            Log in
           </button>
         </div>
       </div>

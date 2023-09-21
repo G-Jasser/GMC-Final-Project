@@ -1,7 +1,7 @@
 import React from "react";
 import "/src/css/style.css";
 import { ApplicantCard } from "./ApplicantCard";
-import { MockApplicantList } from "../assets/MockPostLists";
+import { MockApplicantList } from "/src/assets/MockPostLists";
 
 export const ReceivedAppSection = () => {
     return (

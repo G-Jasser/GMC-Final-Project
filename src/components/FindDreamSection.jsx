@@ -1,5 +1,6 @@
 import React from "react";
 import "/src/css/style.css";
+import { Link } from "react-router-dom";
 
 export const FindDreamSection = () => {
     return (
@@ -9,12 +10,12 @@ export const FindDreamSection = () => {
                 <p className="text-normal">Browse through thousands of job offers</p>
                 <div className="sign-buttons-wrapper">
                     <div className="double-button-container">
-                        <button className="button-styled primary-button">
+                        <Link to={"/login"} className="button-styled primary-button">
                             Log In
-                        </button>
-                        <button className="button-styled secondary-button">
+                        </Link>
+                        <Link to={"/applicant/signup"} className="button-styled secondary-button">
                             Sign Up
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </div>

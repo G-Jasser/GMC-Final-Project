@@ -1,5 +1,6 @@
 import React from "react";
 import "/src/css/style.css";
+import { Link } from "react-router-dom";
 
 export const SignUpRecruiter = ({ inputType = "password" }) => {
   return (
@@ -53,9 +54,9 @@ export const SignUpRecruiter = ({ inputType = "password" }) => {
           <p>I agree to the PRIVACY POLICY and TERMS OF USE and automatic renewal.</p>
         </div>
         <div className="double-button-container">
-          <button className="button-styled primary-button">
+          <Link to={"/"} className="button-styled primary-button">
             Cancel
-          </button>
+          </Link>
           <button className="button-styled secondary-button">
             Sign up
           </button>

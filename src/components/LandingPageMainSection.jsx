@@ -1,5 +1,6 @@
 import React from "react";
 import "/src/css/style.css";
+import { Link } from "react-router-dom";
 
 export const LandingPageMainSection = () => {
     return (
@@ -8,12 +9,12 @@ export const LandingPageMainSection = () => {
                 <img className="landing-page-logo" src="/logos/logo-full.png" />
                 <div className="sign-buttons-wrapper">
                     <div className="double-button-container">
-                        <button className="button-styled primary-button">
+                        <Link to={"/company/signup"} className="button-styled primary-button">
                             Find your next hire
-                        </button>
-                        <button className="button-styled secondary-button">
+                        </Link>
+                        <Link to={"/applicant/signup"} className="button-styled secondary-button">
                             Find your next job
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </div>

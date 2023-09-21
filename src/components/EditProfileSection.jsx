@@ -1,11 +1,12 @@
 import React from "react";
 import "/src/css/style.css";
+import { Link } from "react-router-dom";
 
 export const EditProfileSection = () => {
     return (
         <div className="section-container form-container-2 bottom-border max-height-sc min-height-5">
             <div className="form-style-2 max-width width100p">
-                <div className="title-1">Upload Resume</div>
+                {/* <div className="title-1">Upload Resume</div>
                 <div className="input-frame">
                     <label className="text-wrapper">Resume:</label>
                     <input className="textfield" type="file" accept="application/pdf"/>
@@ -15,7 +16,7 @@ export const EditProfileSection = () => {
                     <button className="button-styled secondary-button btn-wd">
                         Upload
                     </button>
-                </div>
+                </div> */}
                 <div className="title-1">Personal Information</div>
                 <div className="input-frame">
                     <label className="text-wrapper">Full Name:</label>
@@ -42,11 +43,16 @@ export const EditProfileSection = () => {
                     <label className="text-wrapper">Nationality:</label>
                     <input className="textfield" type="text" />
                 </div>
+                <div className="title-1">Professional Information</div>
+                <div className="input-frame">
+                    <label className="text-wrapper">Current/Previous Job Title:</label>
+                    <input className="textfield" type="text" />
+                </div>
                 <div className="btn-ctr">
                     <div className="double-button-container">
-                        <button className="button-styled primary-button btn-wd">
+                        <Link to={"/applicant/profile/:applicantID"} className="button-styled primary-button btn-wd">
                             Cancel
-                        </button>
+                        </Link>
                         <button className="button-styled secondary-button btn-wd">
                             Apply
                         </button>

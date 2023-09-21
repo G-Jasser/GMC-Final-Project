@@ -37,9 +37,12 @@ export const JobCardForRecruiter = ({ postDetail }) => {
                 <div className="pending-applicants">
                     Pending Applicants: {postDetail.pending_applicants}
                 </div>
-                <div className="btn-right">
-                    <button className="button-styled secondary-button">
+                <div className="btn-right double-button-container">
+                    <button className="button-styled primary-button">
                         Edit Post
+                    </button>
+                    <button className="button-styled secondary-button">
+                        Delete
                     </button>
                 </div>
             </div>

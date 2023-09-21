@@ -1,5 +1,6 @@
 import React from "react";
 import "/src/css/style.css";
+import { Link } from "react-router-dom";
 
 export const SignUpSeeker = () => {
   return (
@@ -31,12 +32,12 @@ export const SignUpSeeker = () => {
           <p>I agree to the PRIVACY POLICY and TERMS OF USE and automatic renewal.</p>
         </div>
         <div className="double-button-container">
-          <div className="button-styled primary-button">
+          <Link to={"/"} className="button-styled primary-button">
             Cancel
-          </div>
-          <div className="button-styled secondary-button">
+          </Link>
+          <button className="button-styled secondary-button">
             Sign up
-          </div>
+          </button>
         </div>
       </div>
     </div>

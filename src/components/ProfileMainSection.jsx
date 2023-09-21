@@ -1,5 +1,6 @@
 import React from "react";
 import "/src/css/style.css";
+import { Link } from "react-router-dom";
 
 export const ProfileRecruiterMainSec = () => {
     const companyDetailsMock = {
@@ -17,9 +18,9 @@ export const ProfileRecruiterMainSec = () => {
                         Location: Country, City, Address
                     </div>
                     <div className="text-normal">About the company</div>
-                    <button className="button-styled secondary-button">
+                    {/* <Link to={"/company/profile/edit/:applicantID"} className="button-styled secondary-button">
                         Edit Profile
-                    </button>
+                    </Link> */}
                 </div>
                 <button className="button-styled primary-button">
                     Sign out
@@ -36,9 +37,9 @@ export const ProfileSeekerMainSec = () => {
                 <div className="info">
                     <div className="title-1">John Doe</div>
                     <div className="text-normal">Experienced Software Engineer</div>
-                    <button className="button-styled secondary-button">
+                    <Link to={"/applicant/profile/edit/:applicantID"} className="button-styled secondary-button">
                         Edit Profile
-                    </button>
+                    </Link>
                 </div>
                 <button className="button-styled primary-button">
                     Sign out

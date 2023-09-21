@@ -1,9 +1,9 @@
 import React from 'react'
 import "/src/css/style.css";
-import { NavbarUnsigned } from "./Navbars";
+import { NavbarSignedSeeker, NavbarUnsigned } from "./Navbars";
 import { FindDreamSection } from "./FindDreamSection";
 import { JobCategoriesSection } from "./JobCategoriesSection";
-import { JobSearchSection } from "./JobSearchSection";
+import { JobSearchSection } from "./PostListingSection";
 import { GeneralFooter } from "./GeneralFooter"
 
 const JobBrowserPage = ({ signed }) => {
