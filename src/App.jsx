@@ -17,12 +17,13 @@ import ProfileSeekerPage from './components/ProfileSeekerPage'
 import { ReceivedAppSection } from './components/ReceivedAppSection'
 import { RecruiterAboutUsSection } from './components/RecruiterAboutUsSection'
 import PostedJobsPage from './components/PostedJobsPage';
+import NewPostPage from './components/NewPostPage'
 
 function App() {
   return (
     <>
       <NavbarSignedSeeker/>
-      <EditProfileSection/>
+      <NewPostSection/>
       <GeneralFooter />
       <PostedJobsPage/>
     </>

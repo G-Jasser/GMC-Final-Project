@@ -3,7 +3,7 @@ import { NavbarSignedRecruiter } from './NavbarSignedRecruiter'
 import { NewPostSection } from './NewPostSection'
 import { GeneralFooter } from './GeneralFooter'
 
-const PostJobPage = () => {
+const NewPostPage = () => {
   return (
     <>
         <NavbarSignedRecruiter />
@@ -13,4 +13,4 @@ const PostJobPage = () => {
   )
 }
 
-export default PostJobPage
+export default NewPostPage
