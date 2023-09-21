@@ -1,5 +1,6 @@
 import React from "react";
 import "/src/css/style.css";
+import { Link } from "react-router-dom";
 
 export const GeneralFooter = () => {
   return (
@@ -11,30 +12,27 @@ export const GeneralFooter = () => {
         <div className="div">
           <div className="frame-2">
             <div className="text-wrapper">JobQuest Central</div>
-            <div className="item">About us</div>
-            <div className="item">Contact us</div>
+            <Link to={'/'} className="item">About us</Link>
           </div>
           <div className="frame-2">
             <div className="text-wrapper">For Employers</div>
-            <div className="item">Overview</div>
-            <div className="item">Our Offers</div>
-            <div className="item">Post Jobs</div>
+            <Link to={'/company/job-posts'} className="item">Your Job Posts</Link>
+            <Link to={'/company/new-post'} className="item">Create a new Job Post</Link>
           </div>
           <div className="frame-2">
             <div className="text-wrapper">For Job Seekers</div>
-            <div className="item">Overview</div>
-            <div className="item">Browse Jobs</div>
-            <div className="item">Help</div>
+            <Link to={'/jobs'} className="item">Browse Job Posts</Link>
+            <Link to={'/applicant/profile/CHANGETHISLATER'} className="item">Your Application Status</Link>
           </div>
         </div>
       </div>
       <div className="frame-3">
         <div className="container">
-          <div className="title-2">Privacy Policy</div>
+          <Link to={'/'} className="title-2">Privacy Policy</Link>
           <div className="text-wrapper-2">.</div>
-          <div className="title-3">Terms of Service</div>
+          <Link to={'/'} className="title-3">Terms of Service</Link>
           <div className="text-wrapper-2">.</div>
-          <div className="title-3">Contact us</div>
+          <Link to={'/'} className="title-3">Contact us</Link>
         </div>
         <div className="title-wrapper">
           <p className="p">Copyright © 2023, JobQuest Central. All rights reserved.</p>
