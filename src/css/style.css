@@ -803,7 +803,10 @@
     font-size: 16px;
 }
 .form-style-2 textarea.textfield {
-    /*Make this a fix space*/
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 300px;
+    min-height: 100px;
 }
 .input-frame .list-horizontal {
     justify-content: flex-start;
