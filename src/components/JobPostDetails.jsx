@@ -2,7 +2,7 @@ import React from "react";
 import "/src/css/card_style.css";
 
 export const JobPostDetails = ({ JobDetail }) => {
-    const JobDetailMock = { //DELETE THIS LATER
+    const JobDetailMock = JobDetail || { //DELETE THIS LATER
         job_title: "Software Engineer",
         company_name: "Tech Company",
         location: "Country, City, Address",
