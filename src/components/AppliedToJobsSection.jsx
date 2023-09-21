@@ -1,6 +1,7 @@
 import React from "react";
 import "/src/css/style.css";
 import { JobCardForSeeker } from "./JobCardForSeeker";
+import { JobPostDetails } from "./JobPostDetails";
 
 export const AppliedToJobsSection = () => {
     return (
