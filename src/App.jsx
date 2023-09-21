@@ -1,4 +1,5 @@
 import { AppliedToJobsSection } from './components/AppliedToJobsSection'
+import EditProfilePage from './components/EditProfilePage'
 import { EditProfileSection } from './components/EditProfileSection'
 import { FindDreamSection } from './components/FindDreamSection'
 import { GeneralFooter } from './components/GeneralFooter'

@@ -8,7 +8,7 @@ export const EditProfileSection = () => {
                 <div className="title-1">Upload Resume</div>
                 <div className="input-frame">
                     <label className="text-wrapper">Resume:</label>
-                    <input className="textfield" type="file" />
+                    <input className="textfield" type="file" accept="application/pdf"/>
                     <p className="text-subtitle">Accepted formats: PDF</p>
                 </div>
                 <div className="btn-ctr">
