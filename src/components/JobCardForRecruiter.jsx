@@ -32,6 +32,11 @@ export const JobCardForRecruiter = () => {
                 <div className="pending-applicants">
                     Pending Applicants: {JobDetailMock.pending_applicants}
                 </div>
+                <div className="btn-right">
+                    <button className="button-styled secondary-button">
+                        Edit Post
+                    </button>
+                </div>
             </div>
         </div>
     );

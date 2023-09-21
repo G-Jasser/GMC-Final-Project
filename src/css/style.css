@@ -815,3 +815,6 @@
 .btn-wd {
     width: 160px;
 }
+.btn-right {
+    align-self: flex-end;
+}

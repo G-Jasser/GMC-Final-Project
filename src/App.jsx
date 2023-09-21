@@ -16,6 +16,7 @@ import { ProfileSeekerMainSec } from './components/ProfileSeekerMainSec'
 import ProfileSeekerPage from './components/ProfileSeekerPage'
 import { ReceivedAppSection } from './components/ReceivedAppSection'
 import { RecruiterAboutUsSection } from './components/RecruiterAboutUsSection'
+import PostedJobsPage from './components/PostedJobsPage';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <NavbarSignedSeeker/>
       <EditProfileSection/>
       <GeneralFooter />
+      <PostedJobsPage/>
     </>
   )
 }
