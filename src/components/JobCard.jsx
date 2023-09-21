@@ -7,10 +7,7 @@ export const JobCard = ({ JobDetail }) => {
         job_title: "Software Engineer",
         company_name: "Tech Company",
         location: "Country, City, Address",
-        tags: [
-            "Full-time",
-            "Remote"
-        ]
+        salary: "12,35234d per hour",
     }
 
     return (
@@ -21,12 +18,9 @@ export const JobCard = ({ JobDetail }) => {
                 <div className="company">{JobDetailMock.company_name}</div>
                 <div className="location">{JobDetailMock.location}</div>
                 <div className="tags">
-                    {
-                        JobDetailMock.tags.map( tag => 
-                        <div className="tag-styled" key={tag}>
-                            {tag}
-                        </div>)
-                    }
+                        <div className="tag-styled">
+                            {JobDetailMock.salary}
+                        </div>
                 </div>
             </div>
 

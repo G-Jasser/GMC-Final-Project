@@ -7,10 +7,7 @@ export const JobCardForRecruiter = () => {
         job_title: "Software Engineer",
         company_name: "Tech Company",
         location: "Country, City, Address",
-        tags: [
-            "Full-time",
-            "Remote"
-        ],
+        salary: "12,35234d per hour",
         pending_applicants: 0
     }
 
@@ -22,12 +19,9 @@ export const JobCardForRecruiter = () => {
                 <div className="company">{JobDetailMock.company_name}</div>
                 <div className="location">{JobDetailMock.location}</div>
                 <div className="tags">
-                    {
-                        JobDetailMock.tags.map( tag => 
-                        <div className="tag-styled" key={tag}>
-                            {tag}
-                        </div>)
-                    }
+                        <div className="tag-styled">
+                            {JobDetailMock.salary}
+                        </div>
                 </div>
                 <div className="pending-applicants">
                     Pending Applicants: {JobDetailMock.pending_applicants}
