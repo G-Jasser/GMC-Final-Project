@@ -3,7 +3,6 @@ import "/src/css/card_style.css";
 
 export const JobCard = ({ JobDetail }) => {
     const JobDetailMock = { //DELETE THIS LATER
-        image_src: "/logos/just-logo-1.png",
         job_title: "Software Engineer",
         company_name: "Tech Company",
         location: "Country, City, Address",

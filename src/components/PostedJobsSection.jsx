@@ -1,6 +1,7 @@
 import React from "react";
 import "/src/css/style.css";
 import { JobCardForRecruiter } from "./JobCardForRecruiter";
+import { JobPostDetails } from "./JobPostDetails";
 
 export const PostedJobsSection = () => {
     return (
@@ -19,8 +20,8 @@ export const PostedJobsSection = () => {
                         <JobCardForRecruiter />
                     </div>
                 </div>
-                <div className="image-wrapper">
-                    <img src="/logos/logo-full.png" alt="" />
+                <div className="job-post-section min-width-500">
+                    <JobPostDetails/>
                 </div>
             </div>
         </div>

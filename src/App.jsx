@@ -23,6 +23,7 @@ function App() {
   return (
     <>
       <NavbarSignedSeeker/>
+      <JobSearchSection/>
       <NewPostSection/>
       <GeneralFooter />
       <PostedJobsPage/>

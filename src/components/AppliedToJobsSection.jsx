@@ -14,8 +14,8 @@ export const AppliedToJobsSection = () => {
                         <JobCardForSeeker />
                     </div>
                 </div>
-                <div className="image-wrapper">
-                    <img src="/logos/logo-full.png" alt="" />
+                <div className="job-post-section min-width-500">
+                    <JobPostDetails/>
                 </div>
             </div>
         </div>

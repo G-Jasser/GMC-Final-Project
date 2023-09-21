@@ -2,6 +2,7 @@ import React from "react";
 import "/src/css/style.css";
 import { JobCard } from "./JobCard";
 import { JobSearchBar } from "./JobSearchBar";
+import { JobPostDetails } from "./JobPostDetails";
 
 export const JobSearchSection = () => {
     return (
@@ -19,8 +20,8 @@ export const JobSearchSection = () => {
                         <JobCard />
                     </div>
                 </div>
-                <div className="image-wrapper">
-                    <img src="/logos/logo-full.png" alt="" />
+                <div className="job-post-section min-width-500">
+                    <JobPostDetails/>
                 </div>
             </div>
         </div>
