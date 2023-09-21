@@ -812,3 +812,6 @@
     justify-content: flex-start;
     padding: 0;
 }
+.btn-wd {
+    width: 160px;
+}

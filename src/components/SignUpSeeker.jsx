@@ -6,15 +6,9 @@ export const SignUpSeeker = () => {
     <div className="sign-up-page form-page">
       <div className="container">
         <h2 className="title-sign">Sign up</h2>
-        <div className="double-input-frame">
-          <div className="input-frame">
-            <label className="text-wrapper">First Name:</label>
-            <input className="textfield" type="text" />
-          </div>
-          <div className="input-frame">
-            <label className="text-wrapper">Last Name:</label>
-            <input className="textfield" type="text" />
-          </div>
+        <div className="input-frame">
+          <label className="text-wrapper">Full name:</label>
+          <input className="textfield" type="text" />
         </div>
         <div className="input-frame">
           <label className="text-wrapper">Email:</label>

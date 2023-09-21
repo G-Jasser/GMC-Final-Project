@@ -1,4 +1,5 @@
 import { AppliedToJobsSection } from './components/AppliedToJobsSection'
+import { EditProfileSection } from './components/EditProfileSection'
 import { FindDreamSection } from './components/FindDreamSection'
 import { GeneralFooter } from './components/GeneralFooter'
 import JobBrowserPage from './components/JobBrowserPage'
@@ -6,6 +7,7 @@ import { JobCategoriesSection } from './components/JobCategoriesSection'
 import { JobSearchSection } from './components/JobSearchSection'
 import LandingPage from './components/LandingPage'
 import { NavbarSignedRecruiter } from './components/NavbarSignedRecruiter'
+import { NavbarSignedSeeker } from './components/NavbarSignedSeeker'
 import { NewPostSection } from './components/NewPostSection'
 import { PostedJobsSection } from './components/PostedJobsSection'
 import { ProfileRecruiterMainSec } from './components/ProfileRecruiterMainSec'
@@ -17,8 +19,8 @@ import { RecruiterAboutUsSection } from './components/RecruiterAboutUsSection'
 function App() {
   return (
     <>
-      <NavbarSignedRecruiter/>
-      <NewPostSection/>
+      <NavbarSignedSeeker/>
+      <EditProfileSection/>
       <GeneralFooter />
     </>
   )
