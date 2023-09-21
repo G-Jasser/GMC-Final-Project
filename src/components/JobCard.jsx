@@ -16,7 +16,6 @@ export const JobCard = ({ JobDetail }) => {
     return (
         <div className="job-card">
             {/* WRAP IN A LINK LATER TO OUTLET */}
-            <img src={JobDetailMock.image_src} alt="" className="image-container"/>
             <div className="card-frame">
                 <div className="title">{JobDetailMock.job_title}</div>
                 <div className="company">{JobDetailMock.company_name}</div>
