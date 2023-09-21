@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavbarSignedRecruiter } from "./Navbars"
-import { PostedJobsSection } from './PostedJobsSection'
+import { PostedJobsSection } from './PostListingSection'
 import { ReceivedAppSection } from './ReceivedAppSection'
 import { GeneralFooter } from './GeneralFooter'
 

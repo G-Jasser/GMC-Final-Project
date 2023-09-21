@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavbarSignedSeeker } from "./Navbars"
-import { ProfileSeekerMainSec } from './ProfileSeekerMainSec'
-import { AppliedToJobsSection } from './AppliedToJobsSection'
+import { ProfileSeekerMainSec } from "./ProfileMainSection"
+import { AppliedToJobsSection } from './PostListingSection'
 import { GeneralFooter } from './GeneralFooter'
 
 const ProfileSeekerPage = () => {
