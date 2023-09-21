@@ -5,15 +5,24 @@ import { FindDreamSection } from "./FindDreamSection";
 import { JobCategoriesSection } from "./JobCategoriesSection";
 import { JobSearchSection } from "./JobSearchSection";
 import { GeneralFooter } from "./GeneralFooter";
+import { NavbarSignedSeeker } from './NavbarSignedSeeker';
 
-const JobBrowserPage = () => {
+const JobBrowserPage = ({ signed }) => {
   return (
     <>
-        <NavbarUnsigned />
-        <FindDreamSection />
-        <JobCategoriesSection />
-        <JobSearchSection />
-        <GeneralFooter />
+      {signed ?
+        <>
+          <NavbarSignedSeeker />
+        </>
+        :
+        <>
+          <NavbarUnsigned />
+          <FindDreamSection />
+        </>
+      }
+      <JobCategoriesSection />
+      <JobSearchSection />
+      <GeneralFooter />
     </>
   )
 }

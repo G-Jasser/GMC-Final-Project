@@ -12,7 +12,6 @@ export const NavbarSignedSeeker = ({ className }) => {
                 <div className="tab">Home</div>
                 <div className="tab">Profile</div>
                 <div className="tab">Browse Jobs</div>
-                <div className="tab">Notification</div>
             </div>
         </div>
     );

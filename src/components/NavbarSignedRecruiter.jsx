@@ -13,7 +13,6 @@ export const NavbarSignedRecruiter = ({ className }) => {
         <div className="tab">Profile</div>
         <div className="tab">Posted Jobs</div>
         <div className="tab">Our Offers</div>
-        <div className="tab">Notifications</div>
       </div>
     </div>
   );
