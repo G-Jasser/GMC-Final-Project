@@ -16,11 +16,13 @@ export const GeneralFooter = () => {
           </div>
           <div className="frame-2">
             <div className="text-wrapper">For Employers</div>
+            <Link to={'/company/profile/CHANGETHISLATER'} className="item">Your Company Profile</Link>
             <Link to={'/company/job-posts'} className="item">Your Job Posts</Link>
             <Link to={'/company/new-post'} className="item">Create a new Job Post</Link>
           </div>
           <div className="frame-2">
             <div className="text-wrapper">For Job Seekers</div>
+            <Link to={'/applicant/profile/CHANGETHISLATER'} className="item">Your Profile</Link>
             <Link to={'/jobs/signed'} className="item">Browse Job Posts</Link>
             <Link to={'/applicant/profile/CHANGETHISLATER'} className="item">Your Application Status</Link>
           </div>
