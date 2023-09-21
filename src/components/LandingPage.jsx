@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavbarLandingPage } from './NavbarLandingPageUnsigned'
+import { NavbarLandingPage } from "./Navbars"
 import { LandingPageMainSection } from './LandingPageMainSection'
 import { WhyUs } from './WhyUs'
 import { BenefitsSection } from './BenefitsSection'

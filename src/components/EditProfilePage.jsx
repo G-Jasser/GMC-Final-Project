@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavbarSignedSeeker } from './NavbarSignedSeeker'
+import { NavbarSignedSeeker } from "./Navbars"
 import { EditProfileSection } from './EditProfileSection'
 import { GeneralFooter } from './GeneralFooter'
 

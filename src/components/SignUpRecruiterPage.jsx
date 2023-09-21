@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavbarLandingPage } from './NavbarLandingPageUnsigned'
+import { NavbarLandingPage } from "./Navbars"
 import { SignUpRecruiter } from './SignUpRecruiter'
 import { GeneralFooter } from './GeneralFooter'
 

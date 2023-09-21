@@ -1,7 +1,7 @@
 import React from "react";
 import "/src/css/style.css";
-import { JobCardForSeeker } from "./JobCardForSeeker";
-import { JobPostDetails } from "./JobPostDetails";
+import { JobCardForSeeker } from "./JobCard";
+import { JobPostDetailsApplied } from "./JobPostDetails";
 import { MockApplicantStatus } from "/src/assets/MockPostLists"; //Delete Later
 
 export const AppliedToJobsSection = () => {
@@ -15,7 +15,7 @@ export const AppliedToJobsSection = () => {
                     </div>
                 </div>
                 <div className="job-post-section min-width-500">
-                    <JobPostDetails/>
+                    <JobPostDetailsApplied/>
                 </div>
             </div>
         </div>

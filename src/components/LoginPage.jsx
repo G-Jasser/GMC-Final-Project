@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavbarLandingPage } from './NavbarLandingPageUnsigned'
+import { NavbarLandingPage } from "./Navbars"
 import { LoginSection } from './LoginSection'
 import { GeneralFooter } from './GeneralFooter'
 
