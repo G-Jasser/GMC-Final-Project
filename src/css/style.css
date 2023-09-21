@@ -758,7 +758,7 @@
     flex: 1 0 0;
 }
 
-.JobSearchSection .btn-ctr {
+.btn-ctr {
     align-self: stretch;
     display: flex;
     justify-content: center;
@@ -776,4 +776,36 @@
     height: 100px;
     width: 100px;
     border-radius: 50px;
+}
+/*********************************************************/
+/* FORM PAGE 2 CSS SECTION ------------------------------*/
+.form-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 170px;
+}
+.form-style-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+}
+
+.form-style-2 .title-1, .form-style-2 .text-normal {
+    text-align: center;
+}
+.form-style-2 .text-wrapper {
+    font-weight: bold;
+    font-size: 16px;
+}
+.form-style-2 .textfield {
+    font-size: 16px;
+}
+.form-style-2 textarea.textfield {
+    /*Make this a fix space*/
+}
+.input-frame .list-horizontal {
+    justify-content: flex-start;
+    padding: 0;
 }
