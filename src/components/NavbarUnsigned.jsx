@@ -1,24 +1,24 @@
 import React from "react";
 import "/src/css/style.css";
+import { Link } from "react-router-dom";
 
 export const NavbarUnsigned = ({ className }) => {
   return (
     <div className={`navbar-general ${className}`}>
-      <div className="div">
+      <Link to={'/'} className="div">
         <img className="justlogo" alt="Justlogo" src="/logos/just-logo-1.png" />
         <div className="title-2">JobQuest Central</div>
-      </div>
+      </Link>
       <div className="frame">
         <div className="navigation">
-          <div className="tab">Home</div>
-          <div className="tab">Browse Jobs</div>
-          <div className="tab">About Us</div>
-          <div className="tab">Contact Us</div>
+          <Link to={'/jobs/signed'} className="tab">Browse Jobs</Link>
+          <Link to={'/'} className="tab">About Us</Link>
+          <Link to={'/'} className="tab">Contact Us</Link>
         </div>
         <div>
-          <button className="button-styled primary-button">
+          <Link to={'/login'} className="button-styled primary-button">
             Log in
-          </button>
+          </Link>
         </div>
       </div>
     </div>

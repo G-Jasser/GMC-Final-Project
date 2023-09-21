@@ -21,7 +21,7 @@ export const GeneralFooter = () => {
           </div>
           <div className="frame-2">
             <div className="text-wrapper">For Job Seekers</div>
-            <Link to={'/jobs'} className="item">Browse Job Posts</Link>
+            <Link to={'/jobs/signed'} className="item">Browse Job Posts</Link>
             <Link to={'/applicant/profile/CHANGETHISLATER'} className="item">Your Application Status</Link>
           </div>
         </div>

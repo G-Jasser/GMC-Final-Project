@@ -1,17 +1,18 @@
 import React from "react";
 import "/src/css/style.css";
+import { Link } from "react-router-dom";
 
 export const NavbarSignedSeeker = ({ className }) => {
     return (
         <div className={`navbar-general ${className}`}>
-            <div className="div">
+            <Link to={'/'} className="div">
                 <img className="justlogo" alt="Justlogo" src="/logos/just-logo-1.png" />
                 <div className="title-2">JobQuest Central</div>
-            </div>
+            </Link>
             <div className="navigation">
-                <div className="tab">Home</div>
-                <div className="tab">Profile</div>
-                <div className="tab">Browse Jobs</div>
+                <Link to={'/'} className="tab">Home</Link>
+                <Link to={'/applicant/profile/CHANGETHISLATER'} className="tab">Profile</Link>
+                <Link to={'/jobs'} className="tab">Browse Jobs</Link>
             </div>
         </div>
     );
