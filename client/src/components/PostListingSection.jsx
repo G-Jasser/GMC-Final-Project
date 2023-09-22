@@ -68,7 +68,7 @@ export const PostedJobsSection = () => {
                     </div>
                 </div>
                 <div className="job-post-section min-width-500">
-                    <JobPostDetailsPosted/>
+                    <Outlet context={[posts]}/>
                 </div>
             </div>
         </div>

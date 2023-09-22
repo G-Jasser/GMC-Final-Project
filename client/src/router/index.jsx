@@ -60,7 +60,13 @@ export const router = createBrowserRouter([
       },
       {
         path: "/company/job-posts",
-        element: <PostedJobsPage />
+        element: <PostedJobsPage />,
+        children: [
+          {
+            path: "/company/job-posts/:jobID",
+            element: <JobPostDetails isCompany={true}/>
+          }
+        ]
       },
       {
         path: "/company/new-post",
