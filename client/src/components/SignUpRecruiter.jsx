@@ -2,7 +2,7 @@ import React from "react";
 import "/src/css/style.css";
 import { Link } from "react-router-dom";
 
-export const SignUpRecruiter = ({ inputType = "password" }) => {
+export const SignUpRecruiter = () => {
   return (
     <div className="sign-up-page form-page">
       <div className="container">
@@ -28,10 +28,10 @@ export const SignUpRecruiter = ({ inputType = "password" }) => {
           </div>
         </div>
         <div className="input-frame">
-            <label className="text-wrapper">Country:</label>
-            <input className="textfield" type="text" />
+            <label className="text-wrapper">Location:</label>
+            <input className="textfield" type="text" placeholder="Country, City, Address"/>
         </div>
-        <div className="double-input-frame">
+        {/* <div className="double-input-frame">
           <div className="input-frame">
             <label className="text-wrapper">City:</label>
             <input className="textfield" type="text" />
@@ -40,7 +40,7 @@ export const SignUpRecruiter = ({ inputType = "password" }) => {
             <label className="text-wrapper">ZIP:</label>
             <input className="textfield" type="text" />
           </div>
-        </div>
+        </div> */}
         <div className="input-frame">
             <label className="text-wrapper">Password:</label>
             <input className="textfield" type="password" />
