@@ -9,8 +9,8 @@ export const NewPostSection = () => {
         company_name: "",
         location: "",
         salary: "",
-        pending_applicants: "",
-        job_requirement: "",
+        pending_applicants: 0,
+        job_requirements: "",
         job_responsibilities: ""
     })
     const dispatch=useDispatch()
@@ -19,6 +19,10 @@ export const NewPostSection = () => {
             <div className="form-style-2 max-width width100p">
                 <div className="title-1">Job Post Details</div>
                 <p className="text-normal">Provide information about your job offer</p>
+                <div className="input-frame">
+                    <label className="text-wrapper">Company Name:</label>
+                    <input className="textfield" type="text" onChange={(e) => setnewpost({ ...newpost, company_name: e.target.value })} />
+                </div>
                 <div className="input-frame">
                     <label className="text-wrapper">Job Title:</label>
                     <input className="textfield" type="text" onChange={(e) => setnewpost({ ...newpost, job_title: e.target.value })} />
@@ -29,7 +33,7 @@ export const NewPostSection = () => {
                 </div>
                 <div className="input-frame">
                     <label className="text-wrapper">Requirements:</label>
-                    <textarea className="textfield" onChange={(e) => setnewpost({ ...newpost, job_requirement: e.target.value })}/>
+                    <textarea className="textfield" onChange={(e) => setnewpost({ ...newpost, job_requirements: e.target.value })}/>
                 </div>
                 <div className="input-frame">
                     <label className="text-wrapper">Responsibilities:</label>
