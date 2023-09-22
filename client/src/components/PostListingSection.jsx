@@ -64,7 +64,7 @@ export const PostedJobsSection = () => {
                         </Link>
                     </div>
                     <div className="list-scrollable min-width-500">
-                        {posts.map(post => <JobCardForRecruiter postDetail={post} key={post.job_id}/>)}
+                        {posts.map(post => <JobCardForRecruiter postDetail={post} key={post._id}/>)}
                     </div>
                 </div>
                 <div className="job-post-section min-width-500">
