@@ -13,6 +13,7 @@ import JobBrowserPage from "/src/components/JobBrowserPage";
 import NewPostPage from "/src/components/NewPostPage";
 import LoginPage from "../components/LoginPage";
 import EditPostPage from "../components/EditPostPage";
+import { JobPostDetails } from "../components/JobPostDetails";
 
 export const router = createBrowserRouter([
   {
@@ -26,6 +27,12 @@ export const router = createBrowserRouter([
   {
     path: "/jobs",
     element: <JobBrowserPage signed={false} />,
+    children: [
+      {
+        path: "/jobs/:jobID",
+        element: <JobPostDetails />
+      }
+    ]
   },
   {
     path: "/jobs/signed",

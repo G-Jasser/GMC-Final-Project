@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 export const JobCard = ({ postDetail }) => {
 
     return (
-        <div className="job-card">
+        <Link to={postDetail._id} className="job-card">
             {/* WRAP IN A LINK LATER TO OUTLET */}
             <div className="card-frame">
-                <div className="title">{postDetail.job_title}</div>
+                <div className="title-2">{postDetail.job_title}</div>
                 <div className="company">{postDetail.company_name}</div>
                 <div className="location">{postDetail.location}</div>
                 <div className="tags">
@@ -18,7 +18,7 @@ export const JobCard = ({ postDetail }) => {
                 </div>
             </div>
 
-        </div>
+        </Link>
     );
 };
 

@@ -4,7 +4,7 @@ import { JobCard, JobCardForRecruiter, JobCardForSeeker } from "./JobCard";
 import { JobPostDetails, JobPostDetailsApplied, JobPostDetailsPosted } from "./JobPostDetails";
 import { MockApplicantStatus, MockJobList } from "/src/assets/MockPostLists"; //Delete Later
 import { JobSearchBar } from "./JobSearchBar";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { getPost } from "../JS/postSlice/postSlice";
 
@@ -32,7 +32,7 @@ export const JobSearchSection = () => {
     useEffect(() => {
       dispatch(getPost())
     }, [])
-    const posts=useSelector((store)=>store.post?.post)
+    const posts=useSelector((store)=>store.post?.post) || []
     console.log(posts);
     return (
         <div className="section-container JobSearchSection bottom-border max-height-sc">
@@ -41,11 +41,11 @@ export const JobSearchSection = () => {
                     <div className="title-1">Search Posted Jobs</div>
                     <JobSearchBar />
                     <div className="list-scrollable min-width-500">
-                        {posts.map(post =><JobCard postDetail={post} key={post.job_id} />)}
+                        {posts.map(post =><JobCard postDetail={post} key={post._id} />)}
                     </div>
                 </div>
                 <div className="job-post-section min-width-500">
-                    <JobPostDetails/>
+                    <Outlet context={[posts]}/>
                 </div>
             </div>
         </div>
