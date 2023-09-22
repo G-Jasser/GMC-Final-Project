@@ -12,6 +12,7 @@ import EditProfilePage from "/src/components/EditProfilePage";
 import JobBrowserPage from "/src/components/JobBrowserPage";
 import NewPostPage from "/src/components/NewPostPage";
 import LoginPage from "../components/LoginPage";
+import EditPostPage from "../components/EditPostPage";
 
 export const router = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ export const router = createBrowserRouter([
       {
         path: "/company/new-post",
         element: <NewPostPage/>
+      },
+      {
+        path: "/company/edit-post/:postID",
+        element: <EditPostPage/>
       }
     ]
   },

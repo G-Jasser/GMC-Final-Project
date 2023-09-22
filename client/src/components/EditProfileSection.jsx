@@ -26,7 +26,7 @@ export const EditProfileSection = () => {
                     <label className="text-wrapper">Phone number:</label>
                     <input className="textfield" type="text" />
                 </div>
-                <div className="double-input-frame">
+                {/* <div className="double-input-frame">
                     <div className="input-frame">
                         <label className="text-wrapper">Date of Birth:</label>
                         <input className="textfield" type="date" />
@@ -42,7 +42,7 @@ export const EditProfileSection = () => {
                 <div className="input-frame">
                     <label className="text-wrapper">Nationality:</label>
                     <input className="textfield" type="text" />
-                </div>
+                </div> */}
                 <div className="title-1">Professional Information</div>
                 <div className="input-frame">
                     <label className="text-wrapper">Current/Previous Job Title:</label>

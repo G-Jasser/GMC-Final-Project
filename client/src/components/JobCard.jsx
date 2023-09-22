@@ -1,5 +1,6 @@
 import React from "react";
 import "/src/css/card_style.css";
+import { Link } from "react-router-dom";
 
 export const JobCard = ({ postDetail }) => {
 
@@ -38,9 +39,9 @@ export const JobCardForRecruiter = ({ postDetail }) => {
                     Pending Applicants: {postDetail.pending_applicants}
                 </div>
                 <div className="btn-right double-button-container">
-                    <button className="button-styled primary-button">
+                    <Link to={"/company/edit-post/:postID"} className="button-styled primary-button">
                         Edit Post
-                    </button>
+                    </Link>
                     <button className="button-styled secondary-button">
                         Delete
                     </button>
