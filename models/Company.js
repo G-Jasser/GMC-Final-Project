@@ -13,5 +13,16 @@ const CompanySchema = new schema({
     type: String,
     required: true,
   },
+  phone: {
+    type: String,
+    required: true,
+  },
+  website: {
+    type: String,
+  },
+  location: {
+    type: String,
+    required: true,
+  },
 });
 module.exports = mongoose.model("Company", CompanySchema);

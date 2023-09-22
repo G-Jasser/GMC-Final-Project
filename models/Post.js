@@ -3,7 +3,7 @@ const schema = mongoose.Schema;
 const PostSchema = new schema({
   job_title: {
     type: String,
-
+    required: true,
   }
   ,
   company_name: {
@@ -12,14 +12,13 @@ const PostSchema = new schema({
   },
   location: {
     type: String,
-
   },
   salary: {
     type: String,
 
   },
   pending_applicants: {
-    type: String,
+    type: Number,
 
   },
   job_requirement: {
