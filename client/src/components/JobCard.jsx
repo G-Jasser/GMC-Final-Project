@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "/src/css/card_style.css";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
@@ -26,8 +26,10 @@ export const JobCard = ({ postDetail }) => {
 
 export const JobCardForRecruiter = ({ postDetail }) => {
     const dispatch = useDispatch()
+    const [isDeleted, setIsDeleted] = useState(false)
+
     return (
-        <Link to={postDetail._id} className="job-card">
+        <Link to={postDetail._id} className="job-card" style={isDeleted?{display:"none"}:{}}>
             {/* WRAP IN A LINK LATER TO OUTLET */}
             <div className="card-frame">
                 <div className="title-2">{postDetail.job_title}</div>
@@ -48,6 +50,7 @@ export const JobCardForRecruiter = ({ postDetail }) => {
                     <button className="button-styled secondary-button" onClick={
                         () => {
                             dispatch(deletePost(postDetail._id))
+                            setIsDeleted(true)
                             }}>
                         Delete
                     </button>

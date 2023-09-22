@@ -113,6 +113,7 @@
     font-weight: 500;
     line-height: 24px;
     /* 150% */
+    z-index: 5;
 }
 
 .primary-button {
@@ -891,4 +892,5 @@
 
 a {
     text-decoration: none;
+    z-index: 1;
 }
