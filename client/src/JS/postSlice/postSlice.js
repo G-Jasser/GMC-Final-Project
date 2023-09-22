@@ -11,9 +11,9 @@ export const getPost = createAsyncThunk('post/get', async () => {
     }
 })
 
-export const addPost = createAsyncThunk('post/add', async (user) => {
+export const addPost = createAsyncThunk('post/add', async (post) => {
     try {
-        let result = axios.post('http://localhost:5000/post/add', user)
+        let result = axios.post('http://localhost:5000/post/add', post)
         return result
     } catch (error) {
         console.log(error)
@@ -28,9 +28,9 @@ export const deletePost = createAsyncThunk('post/delete', async (id) => {
     }
 })
 
-export const updatePost = createAsyncThunk('post/update', async ({ id, user }) => {
+export const updatePost = createAsyncThunk('post/update', async ( id, post) => {
     try {
-        let result = axios.put(`http://localhost:5000/post/${id}`, user)
+        let result = axios.put(`http://localhost:5000/post/${id}`, post)
         return result
     } catch (error) {
         console.log(error)

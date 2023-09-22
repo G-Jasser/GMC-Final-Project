@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "/src/css/style.css";
 import { useDispatch, useSelector } from "react-redux";
-import { addPost } from "../JS/postSlice/postSlice";
+import { addPost, updatePost } from "../JS/postSlice/postSlice";
 import { useParams } from "react-router-dom";
 
 export const NewPostSection = () => {
