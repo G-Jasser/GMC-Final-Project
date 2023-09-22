@@ -73,7 +73,7 @@ export const NavbarSignedSeeker = ({ className }) => {
           </Link>
           <div className="navigation">
               <Link to={'/'} className="tab">Home</Link>
-              <Link to={'/applicant/profile/CHANGETHISLATER'} className="tab">Profile</Link>
+              <Link to={'/applicant/profile/'} className="tab">Profile</Link>
               <Link to={'/jobs'} className="tab">Browse Jobs</Link>
           </div>
       </div>

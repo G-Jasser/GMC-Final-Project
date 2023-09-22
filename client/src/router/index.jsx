@@ -30,7 +30,7 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "/jobs/:jobID",
-        element: <JobPostDetails />
+        element: <JobPostDetails canApply={true}/>
       }
     ]
   },
@@ -40,7 +40,7 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "/jobs/signed/:jobID",
-        element: <JobPostDetails />
+        element: <JobPostDetails canApply={true}/>
       }
     ]
   },
@@ -64,7 +64,7 @@ export const router = createBrowserRouter([
         children: [
           {
             path: "/company/job-posts/:jobID",
-            element: <JobPostDetails isCompany={true}/>
+            element: <JobPostDetails />
           }
         ]
       },
@@ -86,8 +86,14 @@ export const router = createBrowserRouter([
         element: <SignUpSeekerPage />
       },
       {
-        path: "/applicant/profile/:applicantID",
-        element: <ProfileSeekerPage />
+        path: "/applicant/profile/",
+        element: <ProfileSeekerPage />,
+        children: [
+          {
+            path: "/applicant/profile/:jobID",
+            element: <JobPostDetails/>
+          }
+        ]
       },
       {
         path: "/applicant/profile/edit/:applicantID",

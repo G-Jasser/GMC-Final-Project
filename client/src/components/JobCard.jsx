@@ -62,7 +62,7 @@ export const JobCardForRecruiter = ({ postDetail }) => {
 
 export const JobCardForSeeker = ({ postDetail }) => {
     return (
-        <div className="job-card">
+        <Link to={postDetail._id} className="job-card">
             {/* WRAP IN A LINK LATER TO OUTLET */}
             <div className="card-frame">
                 <div className="title-2">{postDetail.job_title}</div>
@@ -77,7 +77,7 @@ export const JobCardForSeeker = ({ postDetail }) => {
                     Pending Applicants: {postDetail.application_status}
                 </div>
             </div>
-        </div>
+        </Link>
     );
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 import "/src/css/card_style.css";
 import { useOutletContext, useParams } from "react-router-dom";
 
-export const JobPostDetails = ({ isCompany = false }) => {
+export const JobPostDetails = ({ canApply = false }) => {
     const params = useParams()
     const [postList] = useOutletContext()
     const filteredPostList = postList.filter(function (post) {
@@ -24,14 +24,14 @@ export const JobPostDetails = ({ isCompany = false }) => {
                     </div>
                 </div>
                 {
-                isCompany?
-                    <></>
-                    :
+                canApply?
                     <div className="btn-right">
                         <button className="button-styled secondary-button">
                             Apply
                         </button>
                     </div>
+                    :
+                    <></>
                 }
             </div>
             <div className="middle">
