@@ -9,14 +9,14 @@ import { useDispatch, useSelector } from "react-redux";
 import { getPost } from "../JS/postSlice/postSlice";
 
 export const AppliedToJobsSection = () => {
-
+    const posts=useSelector((store)=>store.post?.post) || []
     return (
         <div className="section-container JobSearchSection bottom-border max-height-sc">
             <div className="max-width-2 main-container">
                 <div className="main-container-1">
                     <div className="title-1">Applied to Jobs</div>
                     <div className="list-scrollable min-width-500">
-                        {MockApplicantStatus.map(post => <JobCardForSeeker postDetail={post} key={post.job_id} />)}
+                        {posts.map(post => <JobCardForSeeker postDetail={post} key={post.job_id} />)}
                     </div>
                 </div>
                 <div className="job-post-section min-width-500">
@@ -28,12 +28,11 @@ export const AppliedToJobsSection = () => {
 };
 
 export const JobSearchSection = () => {
-    const dispatch=useDispatch()
-    useEffect(() => {
-      dispatch(getPost())
-    }, [])
+    // const dispatch=useDispatch()
+    // useEffect(() => {
+    //   dispatch(getPost())
+    // }, [])
     const posts=useSelector((store)=>store.post?.post) || []
-    console.log(posts);
     return (
         <div className="section-container JobSearchSection bottom-border max-height-sc">
             <div className="max-width-2 main-container">
@@ -53,6 +52,7 @@ export const JobSearchSection = () => {
 };
 
 export const PostedJobsSection = () => {
+    const posts=useSelector((store)=>store.post?.post) || []
     return (
         <div className="section-container JobSearchSection bottom-border max-height-sc">
             <div className="max-width-2 main-container">
@@ -64,7 +64,7 @@ export const PostedJobsSection = () => {
                         </Link>
                     </div>
                     <div className="list-scrollable min-width-500">
-                        {MockJobList.map(post => <JobCardForRecruiter postDetail={post} key={post.job_id}/>)}
+                        {posts.map(post => <JobCardForRecruiter postDetail={post} key={post.job_id}/>)}
                     </div>
                 </div>
                 <div className="job-post-section min-width-500">
