@@ -59,6 +59,7 @@ export const EditPostSection = () => {
     const posts=useSelector((store)=>store.post?.post) || []
     const params = useParams()
     const [uneditedPost] = posts.filter((post) => post._id == params.jobID)
+    console.log(uneditedPost);
     const [editedPost, setEditedPost] = useState(uneditedPost)
     const dispatch=useDispatch()
 
@@ -131,7 +132,7 @@ export const EditPostSection = () => {
                     <input className="textfield" placeholder={uneditedPost.salary} type="text" onChange={handle_salary_change}/>
                 </div>
                 <div className="btn-ctr">
-                    <button className="button-styled secondary-button" onClick={() =>dispatch(updatePost(editedPost))}>
+                    <button className="button-styled secondary-button" onClick={() =>dispatch(updatePost({id:uneditedPost._id,post:editedPost}))}>
                         Update Post
                     </button>
                 </div>

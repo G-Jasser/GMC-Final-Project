@@ -28,7 +28,7 @@ export const deletePost = createAsyncThunk('post/delete', async (id) => {
     }
 })
 
-export const updatePost = createAsyncThunk('post/update', async ( id, post) => {
+export const updatePost = createAsyncThunk('post/update', async ( {id, post} ) => {
     try {
         let result = axios.put(`http://localhost:5000/post/${id}`, post)
         return result
