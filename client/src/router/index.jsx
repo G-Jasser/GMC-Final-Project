@@ -73,7 +73,7 @@ export const router = createBrowserRouter([
         element: <NewPostPage/>
       },
       {
-        path: "/company/edit-post/:postID",
+        path: "/company/edit-post/:jobID",
         element: <EditPostPage/>
       }
     ]
