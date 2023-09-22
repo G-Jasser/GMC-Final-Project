@@ -35,8 +35,14 @@ export const router = createBrowserRouter([
     ]
   },
   {
-    path: "/jobs/signed",
-    element: <JobBrowserPage signed={true} />
+    path: "/jobs/signed", //REMOVE THIS PATH AFTER SOLVING TOKEN
+    element: <JobBrowserPage signed={true} />,
+    children: [
+      {
+        path: "/jobs/signed/:jobID",
+        element: <JobPostDetails />
+      }
+    ]
   },
   {
     path: ""
